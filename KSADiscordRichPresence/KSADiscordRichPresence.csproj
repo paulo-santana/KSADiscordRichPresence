@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DiscordRichPresence" Version="1.6.1.70" />
+      <PackageReference Include="Lib.Harmony" ExcludeAssets="runtime" Version="2.4.2" />
+      <PackageReference Include="StarMap.API" ExcludeAssets="runtime" Version="0.2.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="mod.toml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="KSA">
+        <HintPath>D:\Games\Kitten Space Agency\KSA.dll</HintPath>
+		  <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+
+</Project>
