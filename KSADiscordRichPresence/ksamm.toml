@@ -1,6 +1,6 @@
 ﻿[metadata]
 name = "KSA Discord Rich Presence"
-version = "0.0.1"
+version = "0.1.0"
 author = "ratInSuit"
 description = "Add Discord Rich Presence support to KSA"
 tags = ["discord"]
