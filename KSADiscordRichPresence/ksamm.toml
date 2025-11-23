@@ -1,0 +1,10 @@
+﻿[metadata]
+name = "KSA Discord Rich Presence"
+version = "0.0.1"
+author = "ratInSuit"
+description = "Add Discord Rich Presence support to KSA"
+tags = ["discord"]
+license_name = "GPL-3.0"
+license_description = "GNU General Public License v3.0"
+
+update_path = "https://spacedock.info/mod/4050/KSA%20Discord%20Rich%20Presence/download"

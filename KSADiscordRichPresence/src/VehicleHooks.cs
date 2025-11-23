@@ -1,11 +1,10 @@
 ﻿using HarmonyLib;
-using KSA; // namespace do jogo
+using KSA;
 
 namespace KSADiscordRichPresence;
 
 public static class VehicleEvents
 {
-    // assine: VehicleEvents.StateChanged += (veh, reason) => { ... };
     public static event Action<Vehicle>? StateChanged;
 
     public static void OnStateChanged(Vehicle vehicle)
