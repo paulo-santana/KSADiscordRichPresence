@@ -47,7 +47,7 @@ public class KsaDiscordRichPresence
             changed = true;
         }
 
-        var situation = veh.LastKinematicStates.Situation;
+        var situation = veh.Situation;
         if (situation != Situation.Maneuvering && lastVehicleSituation != situation.ToString())
         {
             lastVehicleSituation = situation.ToString();
