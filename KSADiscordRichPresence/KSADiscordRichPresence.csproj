@@ -25,6 +25,7 @@
     <ItemGroup>
       <Reference Include="KSA">
         <HintPath>..\..\..\..\Games\ksa\KSA.dll</HintPath>
+        <Private>false</Private>
       </Reference>
     </ItemGroup>
 
