@@ -62,7 +62,7 @@ public class DiscordRpcClientManager
     private static string GetState(Vehicle vehicle)
     {
         var body = vehicle.Parent.Id;
-        var doing = vehicle.LastKinematicStates.Situation switch
+        var doing = vehicle.Situation switch
         {
             Situation.Landed => "Landed on",
             Situation.Freefall => "Orbiting",

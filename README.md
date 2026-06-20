@@ -15,11 +15,7 @@ allowing your friends to see what you're doing in the game!
 ### Manual Installation
 1. Download the latest release from [SpaceDock](https://spacedock.info/mod/4050/KSA%20Discord%20Rich%20Presence)
 2. Extract the contents to your KSA mods folder
-3. Make sure the following DLLs are in the mod folder:
-   - `KSADiscordRichPresence.dll`
-   - `DiscordRPC.dll`
-   - `Newtonsoft.Json.dll`
-   - `mod.toml`
+3. Profit
 
 ## Building from Source
 
@@ -70,7 +66,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 If you encounter any issues or have suggestions:
 - Open an issue on GitHub
-- Visit the mod page on [SpaceDock](https://spacedock.info/mod/4050/KSA%20Discord%20Rich%20Presence)
 
 ## Acknowledgments
 

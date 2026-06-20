@@ -10,7 +10,7 @@
     <ItemGroup>
       <PackageReference Include="DiscordRichPresence" Version="1.6.1.70" />
       <PackageReference Include="Lib.Harmony" ExcludeAssets="runtime" Version="2.4.2" />
-      <PackageReference Include="StarMap.API" ExcludeAssets="runtime" Version="0.2.4" />
+      <PackageReference Include="StarMap.API" ExcludeAssets="runtime" Version="0.3.6" />
     </ItemGroup>
 
     <ItemGroup>
@@ -24,8 +24,7 @@
 
     <ItemGroup>
       <Reference Include="KSA">
-        <HintPath>D:\Games\Kitten Space Agency\KSA.dll</HintPath>
-		  <Private>false</Private>
+        <HintPath>..\..\..\..\Games\ksa\KSA.dll</HintPath>
       </Reference>
     </ItemGroup>
 
